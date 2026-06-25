@@ -1,0 +1,24 @@
+# Secrets
+.env
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# Vector store / ingested data (local state, don't commit user PDFs or index)
+data/store/
+data/uploads/
+*.faiss
+*.pkl
+
+# Streamlit
+.streamlit/
+
+# OS / editor junk
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
